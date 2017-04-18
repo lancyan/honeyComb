@@ -1,10 +1,10 @@
 # honeyComb
 a js class for creating honey comb
 
-<img src="https://github.com/lancyan/honeyComb/blob/master/QQ%E6%88%AA%E5%9B%BE20170419004715.jpg"/>
-<img src="https://github.com/lancyan/honeyComb/blob/master/QQ%E6%88%AA%E5%9B%BE20170419004733.jpg"/>
+
 ![image](https://github.com/lancyan/honeyComb/blob/master/QQ%E6%88%AA%E5%9B%BE20170419004715.jpg)
 ![image](https://github.com/lancyan/honeyComb/blob/master/QQ%E6%88%AA%E5%9B%BE20170419004733.jpg)
+
 sample:
 
 honeyComb.containerId = 'divItemCover';   
