@@ -1,0 +1,73 @@
+﻿.preview .hexagon {
+margin-left: auto;
+margin-right: auto;
+}
+.hexagon {
+position: relative;
+width: 300px;
+height: 173.21px;
+background-color: transparent;
+margin: 86.60px 0;
+border-left: solid 1px #0000ff;
+border-right: solid 1px #0000ff;
+}
+.hexagon {
+background-color: transparent;
+}
+*, *:before, *:after {
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+user agent stylesheetdiv {
+display: block;
+}
+Pseudo ::before element
+.hexagon:before {
+top: -106.0660px;
+border-top: solid 1.4142px #0000ff;
+border-right: solid 1.4142px #0000ff;
+}
+.hexagon:before, .hexagon:after {
+content: "";
+position: absolute;
+z-index: 1;
+width: 212.13px;
+height: 212.13px;
+-webkit-transform: scaleY(0.5774) rotate(-45deg);
+-ms-transform: scaleY(0.5774) rotate(-45deg);
+transform: scaleY(0.5774) rotate(-45deg);
+background-color: transparent;
+left: 42.9340px;
+}
+*, *:before, *:after {
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+Pseudo ::after element
+.hexagon:after {
+bottom: -106.0660px;
+border-bottom: solid 1.4142px #0000ff;
+border-left: solid 1.4142px #0000ff;
+}
+.hexagon:before, .hexagon:after {
+content: "";
+position: absolute;
+z-index: 1;
+width: 212.13px;
+height: 212.13px;
+-webkit-transform: scaleY(0.5774) rotate(-45deg);
+-ms-transform: scaleY(0.5774) rotate(-45deg);
+transform: scaleY(0.5774) rotate(-45deg);
+background-color: transparent;
+left: 42.9340px;
+}
+*, *:before, *:after {
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.hexagon:before {
+top: -106.0660px;
+border-top: solid 1.4142px #0000ff;
+border-right: solid 1.4142px #0000ff;
+}

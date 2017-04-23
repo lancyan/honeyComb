@@ -1,0 +1,1119 @@
+﻿textarea {
+    overflow: auto;
+    overflow: hidden;
+    height: 43px;
+    line-height: 43px;
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 26px;
+    background-color: transparent;
+    border: solid 1px white;
+}
+
+.wrapper {
+    position: absolute;
+    overflow: hidden;
+    display: table;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+#scene {
+    display: block;
+    margin: 0 auto;
+    left: -180px;
+    padding: 0px;
+    position: absolute;
+    overflow: hidden;
+    /*min-height: 1000px;*/
+}
+
+#scene #sceneBK {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#scene .sceneBKImage {
+    position: absolute;
+    min-height: 800px;
+    top: 0px;
+    height: 100%;
+}
+
+
+#pop {
+    position: absolute;
+    overflow: hidden;
+    display: none;
+    z-index: 2000;
+}
+
+#pop .pCon {
+    position: absolute;
+    bottom: 0px;
+    z-index: 9999;
+    width: 1346px;
+    height: 100px;
+    line-height: 100px;
+    background-image: url(../images/bg/text_bg.png);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 26px;
+        
+}
+
+
+#popContent {
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    width: 800px;
+    height: 60px;
+    z-index: 2000;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#popContent .pL {
+    position: absolute;
+    width: 400px;
+    left: 0px;
+}
+
+#popContent .pL .left {
+    text-align:right;
+    position: absolute;
+    left: 0px;
+}
+
+#popContent .pR {
+    position: absolute;
+    width: 400px;
+    right: 0px;
+}
+
+#popContent .pR .right {
+    position: absolute;
+    right: 0px;
+}
+
+#registerBK {
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    display: none;
+    width: 1280px;
+    height: 720px;
+    color: white;
+    font-size: 14pt;
+}
+.register_item1{
+    height:80px;
+}
+.register_item2 {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    width: 420px;
+    height: auto;
+}
+.register_line1 {
+    position: absolute;
+    left: 250px;
+    top: 200px;
+}
+.register_line2 {
+    position: absolute;
+    left: 800px;
+    top: 0px;
+}
+
+.register_item3 {
+    position: absolute;
+    left: 422px;
+    top: 80px;
+    width: 420px;
+    height: auto;
+}
+
+.register_item4 {
+    position: absolute;
+    left: 844px;
+    top: 80px;
+    width: 430px;
+    height: auto;
+}
+
+.followUS {
+    font-size: 26pt;
+    left: 16px;
+    position: absolute;
+}
+.contactUS {
+    font-size: 26pt;
+    left: 20px;
+    position: absolute;
+}
+.registerUS {
+    font-size: 26pt;
+    left: 20px;
+    position: absolute;
+}
+#registerBK .email, #registerBK .weixin {
+    height: 80px;
+    margin-top: -20px;
+}
+#registerBK .phone, #registerBK .weibo {
+    height: 80px;
+    margin-top: 60px;
+}
+#registerBK .register {
+    height: 200px;
+    margin-top: 60px;
+}
+
+
+#registerBK .email > a, #registerBK .weibo > a, #registerBK .weixin > a {
+    position: absolute;
+    left: 80px;
+    line-height: 80px;
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+
+#registerBK .phone  > div {
+    position: absolute;
+    line-height: 80px;
+    left: 80px;
+    width: 200px;
+}
+#registerBK .location  > div {
+    position: absolute;
+    left: 80px;
+    line-height: 10px;
+}
+#registerBK .register > span {
+    position: absolute;
+    line-height: 20px;
+    left: 180px;
+    top: 150px;
+   
+}
+#registerBK .location {
+    height:120px;
+    margin-top:-20px;
+}
+#registerBK .QRCode {
+   position:absolute;
+   left:80px;
+}
+.rules {
+    display: none;
+    z-index: 2000;
+    position: relative;
+    margin: 0 auto;
+    background-position: 50% center;
+    width: 1343px;
+    height: 715px;
+    background: url(../images/register_1.png) no-repeat center;
+}
+.rTooltip {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 660px;
+    top: 395px;
+}
+.iTooltip {
+    position: absolute;
+    left: 438px;
+    top: 155px;
+    display: none;
+}
+.rTooltip img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-Index: -1;
+}
+
+.complete {
+    display: none;
+    z-index: 99;
+    position: relative;
+    margin: 0 auto;
+    background-position: 50% center;
+    width: 1343px;
+    height: 715px;
+    background: url(../images/confirm_page_base.png) no-repeat center;
+}
+
+.completeShow {
+    display:block;
+    z-index: 9999;
+    position: relative;
+    margin: 0 auto;
+    background-position: 50% center;
+    width: 1343px;
+    height: 715px;
+    background: url(../images/confirm_page_base.png) no-repeat center;
+    
+}
+.completedatetime {
+    font-size:50px;
+    color:white;
+    text-align:center;
+    padding-top:10px;
+}
+
+.completeorg {
+    font-size:30px;
+    color:white;
+    text-align:center;
+    padding-top:320px;
+    vertical-align:top;
+}
+.completeclose {
+    cursor: pointer;
+    width: 76px;
+    height: 76px;
+    background: url(../images/close.png) no-repeat 0 0;
+    right: 0px;
+    top:0px;
+    position:absolute;
+    z-index:9999;
+}
+
+    .rules .rule_btns {
+        position: absolute;
+        right: 193px;
+        bottom: 40px;
+        width: 300px;
+        height: 43px;
+    }
+
+    .rules .rule_btns div {
+        position: relative;
+        cursor: pointer;
+        width: 143px;
+        height: 43px;
+    }
+
+    .rules .rule_btns .accept {
+        float: left;
+        background-image: url(../images/accept.png);
+    }
+
+    .rules .rule_btns .cancel {
+        float: right;
+        background-image: url(../images/cancel.png);
+    }
+
+#popRegister {
+    position: absolute;
+    display: none;
+    z-index: 2000;
+    font-family: 'Segoe UI';
+}
+
+#popRegister .popBK {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1346px;
+    height: 715px;
+    background-color: gray;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.navigation {
+    position: absolute;
+    left: 157px;
+    width: 1032px;
+    height: 78px;
+    color: white;
+}
+
+    .navigation .container {
+        padding: 0;
+        position: absolute;
+        margin-top: 0px;
+        width: 1032px;
+        height: 78px;
+    }
+
+        .navigation .container li {
+            list-style-type: none;
+            float: left;
+        }
+
+            .navigation .container li.lihover {
+                background: url(../images/navi/line.png) repeat-x;
+            }
+
+            .navigation .container li.li1 {
+                background: url(../images/navi/1.png) repeat-x;
+            }
+
+            .navigation .container li.liout {
+                background: url(../images/navi/line2.png) repeat-x;
+            }
+
+            .navigation .container li.li2 {
+                background: url(../images/navi/2.png) repeat-x;
+            }
+
+            .navigation .container li.li3 {
+                background: url(../images/navi/3.png) repeat-x;
+            }
+
+            .navigation .container li.li4 {
+                background: url(../images/navi/4.png) repeat-x;
+            }
+
+            .navigation .container li.li5 {
+                background: url(../images/navi/5.png) repeat-x;
+            }
+
+        .navigation .container .liEnds {
+            width: 246px;
+        }
+
+        .navigation .container .liMiddle {
+            width: 190px;
+        }
+
+        .navigation .container .num {
+            position: relative;
+            display: block;
+            left: 25px;
+            font-size: 50px;
+            width: 50px;
+            height: 78px;
+            line-height: 75px;
+            text-align: center;
+        }
+
+        .navigation .container .nt {
+            position: absolute;
+            margin-left: 82px;
+            top: 0px;
+            display: block;
+            font-size: 24px;
+            width: 142px;
+            height: 78px;
+            line-height: 78px;
+            text-align: left;
+        }
+
+        .navigation .container .liSpace {
+            background-color: white;
+            width: 53px;
+            height: 78px;
+        }
+
+.content {
+    position: relative;
+    top: 116px;
+    margin: 0 auto;
+    width: 886px;
+    height: 510px;
+}
+
+    .content .top {
+        width: 886px;
+        height: 44px;
+    }
+
+        .content .top span {
+            position: absolute;
+            top: 0px;
+            display: block;
+            height: 42px;
+        }
+
+        .content .top .due {
+            background: url(../images/item/DueDate.png) no-repeat;
+            left: 20px;
+            width: 42px;
+        }
+
+        .content .top .label {
+            width: 128px;
+            left: 71px;
+            font-size: 24px;
+            line-height: 42px;
+            color: white;
+        }
+
+        .content .top .selected {
+            left: 213px;
+        }
+
+            .content .top .selected select {
+                border: solid 1px white;
+                background: transparent url('../images/navi/select.png') no-repeat;
+                background-position: 335px 0px;
+                width: 376px;
+                height: 42px;
+                font-size: 20px;
+                color: #00b7f3;
+                cursor: pointer;
+            }
+
+                .content .top .selected select::-ms-expand {
+                    display: none;
+                }
+
+        .content .top .btnOpe {
+            position: absolute;
+            background-color: #00b7f3;
+            color: white;
+            font-size: 24px;
+            width: 108px;
+            height: 44px;
+            line-height: 40px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .content .top .br {
+            right: 0px;
+            width: 180px;
+        }
+
+        .content .top .bl {
+            right: 190px;
+        }
+
+
+    .content .vtleft {
+        position: absolute;
+        margin-top: 24px;
+        left: 0px;
+        width: 368px;
+        height: 437px;
+    }
+
+        .content .vtleft .rOpacity {
+            width: 368px;
+            height: 437px;
+        }
+
+        .content .vtleft .cal {
+            width: 360px;
+            height: 300px;
+            font-family: 'Segoe UI';
+            position: relative;
+            left: -15px;
+            top: 15px;
+            text-align: center;
+        }
+
+        .content .vtleft .calTitle {
+            width: 360px;
+            height: 30px;
+            position: relative;
+            text-align: center;
+            color: #00b7f3;
+            margin-left: 40px;
+        }
+
+        .content .vtleft dd span {
+            float: left;
+            margin: 0.5px;
+            display: block;
+            width: 47px;
+            height: 40px;
+            font-size: 12px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #00b7f3;
+            color: white;
+            line-height: 40px;
+        }
+
+        .content .vtleft dt span {
+            float: left;
+            /*margin: 3px;*/
+            display: block;
+            width: 50px;
+            height: 24px;
+            line-height: 24px;
+            font-size: 12px;
+            font-family: 'Segoe UI';
+            font-weight: lighter;
+            text-align: center;
+            background-color: transparent;
+            color: #00b7f3;
+            margin-left: -3px;
+        }
+
+        .content .vtleft .caldl {
+            width: 380px;
+            margin-top: -5px;
+            margin-left: -10px;
+        }
+
+        .content .vtleft .caltxt {
+            width: 350px;
+            height: 43px;
+            /*background-color:red;*/
+            position: relative;
+            left: 21px;
+        }
+
+        .content .vtleft .pre {
+            width: 30px;
+            float: left;
+            cursor: pointer;
+            color: white;
+        }
+
+        .content .vtleft .next {
+            width: 30px;
+            float: left;
+            cursor: pointer;
+            color: white;
+        }
+
+        .content .vtleft .cale {
+            width: 260px;
+            float: left;
+            text-align: center;
+        }
+
+
+    .content .vtright {
+        position: absolute;
+        margin-top: 24px;
+        right: 0px;
+        width: 368px;
+        height: 437px;
+        color: #476067;
+    }
+
+        .content .vtright .rOpacity {
+            width: 368px;
+            height: 381px;
+        }
+
+        .content .vtright .item {
+            position: relative;
+            left: 21px;
+            margin-top: 17px;
+            width: 328px;
+            height: 43px;
+            text-align: center;
+            line-height: 43px;
+            font-size: 26px;
+            cursor: pointer;
+        }
+
+            .content .vtright .item:hover {
+                background-color: #00b7f3;
+                color: white;
+            }
+
+        .content .vtright .itemDefault {
+            background-color: white;
+        }
+
+        .content .vtright .clicked {
+            background-color: #00b7f3;
+            color: white;
+        }
+
+    .content .rOpacity {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background-color: silver;
+        opacity: 0.2;
+        filter: alpha(opacity=20);
+    }
+
+    .content .mark {
+        width: 328px;
+        height: 56px;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+
+
+.buttons {
+    position: relative;
+    top: 136px;
+    margin: 0 auto;
+    width: 886px;
+    height: 43px;
+    color: white;
+    font-size: 22px;
+}
+
+    .buttons .btnHover {
+        background-color: #095974;
+        color: silver;
+    }
+
+    .buttons .btnOut {
+        background-color: #00b7f3;
+        color: white;
+    }
+
+    .buttons .btnPrev {
+        position: absolute;
+        right: 177px;
+        width: 145px;
+        height: 43px;
+        cursor: pointer;
+    }
+
+        .buttons .btnPrev .pre {
+            background: url(../images/navi/previous.png) no-repeat;
+            position: absolute;
+            display: block;
+            left: 15px;
+            top: 13px;
+            width: 15px;
+            height: 18px;
+        }
+
+        .buttons .btnPrev .tp {
+            position: absolute;
+            left: 40px;
+            line-height: 39px;
+        }
+
+    .buttons .btnNext {
+        position: absolute;
+        right: 0px;
+        width: 145px;
+        height: 43px;
+        cursor: pointer;
+    }
+
+        .buttons .btnNext .next {
+            background: url(../images/navi/next.png) no-repeat;
+            position: absolute;
+            display: block;
+            top: 13px;
+            right: 35px;
+            width: 15px;
+            height: 18px;
+        }
+
+        .buttons .btnNext .tn {
+            position: absolute;
+            left: 35px;
+            line-height: 39px;
+        }
+
+    .buttons .btnSubmit {
+        position: absolute;
+        right: -180px;
+        width: 145px;
+        height: 43px;
+        cursor: pointer;
+        display: none;
+    }
+
+        .buttons .btnSubmit .sub {
+            position: absolute;
+            left: 35px;
+            line-height: 39px;
+        }
+
+.myInfo {
+    position: absolute;
+    margin: 0 auto;
+    top: 50px;
+    width: 806px;
+    height: 279px;
+}
+
+    .myInfo .item {
+        position: relative;
+        margin-bottom: 30px;
+        height: 43px;
+        color: white;
+    }
+
+        .myInfo .item .po {
+            top: 7px;
+        }
+
+    .myInfo .requestName .name {
+        top: 0px;
+    }
+
+    .myInfo .requestName #lblCurAccount {
+        position: absolute;
+        left: 360px;
+        top: 0px;
+        height: 43px;
+        line-height: 46px;
+        font-size: 22px;
+    }
+
+    .myInfo .requestBehalf .behalf {
+    }
+
+    .myInfo .requestBehalf #txtEmail {
+        position: absolute;
+        width: 440px;
+        left: 360px;
+        top: 0px;
+        color: white;
+        font-size: 22px;
+    }
+
+        .myInfo .requestBehalf #txtEmail textarea {
+            background-color: transparent;
+            border: solid 1px white;
+            width: 280px;
+            height: 43px;
+            line-height: 43px;
+            color: white;
+            z-index: 999999;
+            overflow: auto;
+            overflow: hidden;
+        }
+
+    .myInfo .requestGroup .group {
+    }
+
+    .myInfo .requestGroup #ddlGroup {
+        position: absolute;
+        width: 440px;
+        left: 360px;
+        top: 0px;
+    }
+
+        .myInfo .requestGroup #ddlGroup select {
+            border: solid 1px white;
+            background: transparent url('../images/navi/select.png') no-repeat;
+            background-position: 173px 0px;
+            width: 215px;
+            height: 43px;
+            font-size: 26px;
+            color: #00b7f3;
+            cursor: pointer;
+        }
+
+            .myInfo .requestGroup #ddlGroup select::-ms-expand {
+                display: none;
+            }
+
+    .myInfo .addNote .note {
+    }
+
+    .myInfo .addNote #note {
+        position: absolute;
+        width: 440px;
+        left: 360px;
+        top: 0px;
+    }
+
+        .myInfo .addNote #note textarea {
+            background-color: transparent;
+            border: solid 1px white;
+            width: 440px;
+            height: 43px;
+        }
+
+
+.visitorInfo {
+    position: absolute;
+    margin: 0 auto;
+    top: 50px;
+    width: 816px;
+    height: 400px;
+}
+
+    .visitorInfo .item {
+        position: relative;
+        margin-bottom: 30px;
+        height: 43px;
+        color: white;
+    }
+
+        .visitorInfo .item .star {
+            top: 6px;
+        }
+
+    .visitorInfo .organizationName #orname {
+        position: absolute;
+        left: 360px;
+        top: 0px;
+        height: 43px;
+        font-size: 22px;
+    }
+
+        .visitorInfo .organizationName #orname textarea {
+            background-color: transparent;
+            border: solid 1px white;
+            width: 440px;
+            height: 43px;
+        }
+
+    .visitorInfo .organizationSize #orsize {
+        position: absolute;
+        left: 360px;
+        top: 0px;
+        height: 43px;
+        font-size: 22px;
+    }
+
+        .visitorInfo .organizationSize #orsize textarea {
+            background-color: transparent;
+            border: solid 1px white;
+            width: 440px;
+            height: 43px;
+        }
+
+    .visitorInfo .industry #industry {
+        position: absolute;
+        left: 360px;
+        top: 0px;
+        height: 43px;
+        font-size: 22px;
+    }
+
+        .visitorInfo .industry #industry select {
+            border: solid 1px white;
+            background: transparent url('../images/navi/select.png') no-repeat;
+            background-position: 398px 0px;
+            width: 440px;
+            height: 43px;
+            font-size: 26px;
+            color: #00b7f3;
+            cursor: pointer;
+        }
+
+            .visitorInfo .industry #industry select::-ms-expand {
+                display: none;
+            }
+
+    .visitorInfo .visitingGroupSize #groupsize {
+        position: absolute;
+        left: 360px;
+        top: 0px;
+        height: 43px;
+        font-size: 22px;
+    }
+
+        .visitorInfo .visitingGroupSize #groupsize textarea {
+            background-color: transparent;
+            border: solid 1px white;
+            width: 440px;
+            height: 43px;
+        }
+
+    .visitorInfo .vip {
+        height: auto;
+    }
+
+        .visitorInfo .vip .vipItem {
+            position: relative;
+            left: 360px;
+            margin-top: 0px;
+            top: -43px;
+            height: 43px;
+        }
+
+            .visitorInfo .vip .vipItem textarea {
+                background-color: transparent;
+                border: solid 1px white;
+                width: 196px;
+                height: 43px;
+                color: #06b2eb;
+            }
+
+        .visitorInfo .vip #vipAdd {
+            width: 96px;
+            height: 43px;
+            background-color: #00b7f3;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            line-height: 40px;
+            margin-top: -40px;
+            margin-left: 360px;
+            cursor: pointer;
+        }
+
+        .visitorInfo .vip #vipRemove {
+        
+        position: absolute;
+        width: 42px;
+        height: 42px;
+        background-image: url(../images/item/removeVIP.png);
+        background-repeat:no-repeat;
+        z-index:9999;
+        cursor: pointer;
+        }
+
+.opportunity {
+    position: absolute;
+    margin: 0 auto;
+    top: 50px;
+    width: 816px;
+    height: 460px;
+}
+
+    .opportunity .item {
+        position: relative;
+        margin-bottom: 30px;
+        height: 43px;
+        color: white;
+    }
+
+        .opportunity .item .star {
+            top: 8px;
+        }
+        .opportunity .item .calc {
+            float: left;
+            margin: 0.5px;
+            display: block;
+            width: 47px;
+            height: 40px;
+            font-size: 12px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #00b7f3;
+            color: white;
+            line-height: 40px;
+        }
+
+         .opportunity .item .calTitle {
+            width: 360px;
+            height: 10px;
+            position: relative;
+            text-align: center;
+            color: #00b7f3;
+            margin-left: 40px;
+            margin-top:20px;
+        }
+         .opportunity .item .pre {
+            width: 30px;
+            float: left;
+            cursor: pointer;
+            color: white;
+        }
+        .opportunity .item .next {
+            width: 30px;
+            float: left;
+            cursor: pointer;
+            color: white;
+        }
+
+        .opportunity .item .middle {
+            width: 260px;
+            float: left;
+            text-align: center;
+        }
+
+                .opportunity .item .calcdd {
+            float: left;
+            /*margin: 3px;*/
+            display: block;
+            width: 50px;
+            height: 24px;
+            line-height: 24px;
+            font-size: 12px;
+            font-family: 'Segoe UI';
+            font-weight: lighter;
+            text-align: center;
+            background-color: transparent;
+            color: #00b7f3;
+            margin-left: -3px;
+        }
+
+        .opportunity .item div > textarea {
+            background-color: transparent;
+            border: solid 1px white;
+            width: 440px;
+            height: 43px;
+            position: absolute;
+            left: 360px;
+            top: 0px;
+            font-size: 22px;
+            color: #06b2eb;
+        }
+
+    .opportunity #opmilestone {
+        position: absolute;
+        left: 360px;
+        top: 0px;
+        height: 43px;
+        font-size: 22px;
+    }
+
+        .opportunity #opmilestone select {
+            border: solid 1px white;
+            background: transparent url('../images/navi/select.png') no-repeat;
+            background-position: 398px 0px;
+            width: 440px;
+            height: 43px;
+            font-size: 26px;
+            color: #00b7f3;
+            cursor: pointer;
+        }
+
+    .opportunity .item div > select::-ms-expand {
+        display: none;
+    }
+
+.title {
+    width: 328px;
+    height: 44px;
+    color: white;
+}
+
+    .title .icon {
+        display: block;
+        position: absolute;
+        width: 42px;
+        height: 42px;
+    }
+
+    .title .star {
+        background: url(../images/navi/star.png) no-repeat;
+        display: block;
+        position: absolute;
+        margin-left: 60px;
+        top: 15px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .title .text {
+        position: absolute;
+        display: block;
+        margin-left: 83px;
+        font-size: 25px;
+    }
+
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    text-indent: 0.01px;
+    text-overflow: "";
+}
