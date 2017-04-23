@@ -5,16 +5,16 @@ a js class for creating honey comb
 ![image](https://github.com/lancyan/honeyComb/blob/master/QQ%E6%88%AA%E5%9B%BE20170419004715.jpg)
 ![image](https://github.com/lancyan/honeyComb/blob/master/QQ%E6%88%AA%E5%9B%BE20170419004733.jpg)
 
-sample:   
-<script type="text/javascript" src="js/jquery-1.11.1.js"></script>    
-<script type="text/javascript" src="js/jquery.transform2d.js"></script>   
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>    
-<script type="text/javascript" src="js/jquery.mousewheel.js"></script>   
-<script type="text/javascript" src="js/honeyComb.js"></script>   
-<script type="text/javascript" src="js/loaderCover.js"></script>   
-<script type="text/javascript" src="js/animation.js"></script>   
-<script type="text/javascript" src="js/gestures/hammer.js"></script>   
-<script type="text/javascript" src="js/deploy/parallax.js"></script>   
+sample:      
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script>          
+<script type="text/javascript" src="js/jquery.transform2d.js"></script>      
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>       
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>      
+<script type="text/javascript" src="js/honeyComb.js"></script>      
+<script type="text/javascript" src="js/loaderCover.js"></script>      
+<script type="text/javascript" src="js/animation.js"></script>      
+<script type="text/javascript" src="js/gestures/hammer.js"></script>      
+<script type="text/javascript" src="js/deploy/parallax.js"></script>      
   
 var pointArr = [   
 { id: 1, left: 534, top: 421, hcMoveLeft: 216, hcMoveTop: 137 },   
